@@ -3,10 +3,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/sungbin38"
   },
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple template for a custom React component library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup --bundleConfigAsCjs -c"
   },
   "author": "",
   "license": "",
@@ -26,7 +26,6 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module",
   "dependencies": {
     "tslib": "^2.5.2"
   }
