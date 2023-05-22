@@ -34,8 +34,6 @@ export default [
             typescript({ tsconfig: "./tsconfig.json" }),
             postcss(),
             terser(),
-
-
         ],
     },
     {
