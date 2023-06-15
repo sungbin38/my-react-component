@@ -1,16 +1,13 @@
 import React from "react";
-import styled from "styled-components";
+import "./Button.css";
 
 export interface ButtonProps {
     label: string;
 }
 
 const Button = (props: ButtonProps) => {
-    return <Wrapper>{props.label}</Wrapper>;
+    return <button>{props.label}</button>;
 };
 
-const Wrapper  = styled.button`
-  background: #1ea7fd;
-  font-size: 50px;
-`
+
 export default Button;
